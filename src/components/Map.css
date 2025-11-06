@@ -1,0 +1,24 @@
+.map-container {
+  margin: 30px auto;
+  max-width: 1000px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.leaflet-container {
+  border-radius: 15px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .map-container {
+    margin: 20px 15px;
+    border-radius: 10px;
+  }
+  
+  .leaflet-container {
+    height: 400px !important;
+    border-radius: 10px;
+  }
+}
